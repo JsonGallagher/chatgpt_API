@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GPT-Buddy</title>
+</head>
+<body>
+    <svg width="270" height="100" viewBox="0 0 270 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="120" height="100" fill="#1D1E24" />
+        <rect x="120" y="0" width="150" height="100" fill="#f0ffff" />
+        <text x="20" y="65" fill="#f0ffff" font-size="35" font-weight="bold" font-family="sans-serif">GPT</text>
+        <text x="140" y="65" fill="#1D1E24" font-size="35" font-weight="bold" font-family="sans-serif">Buddy</text>
+      </svg>      
+    <div class="prompt">
+        <form action="/ChatGPT_API-Template.py">
+            <label for="prompt">Enter a prompt: </label>
+            <br>
+            <textarea type="text" id="prompt" name="prompt"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
